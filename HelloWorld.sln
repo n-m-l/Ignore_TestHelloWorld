@@ -5,9 +5,9 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{B490B0CA-AD9D-423A-940D-D49BCD32BB2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host.ConsoleApp", "Host.Console\Host.ConsoleApp.csproj", "{BAD67376-ECF8-4AB9-8BD9-E32CD7734109}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host.ConsoleApp", "Host.ConsoleApp\Host.ConsoleApp.csproj", "{BAD67376-ECF8-4AB9-8BD9-E32CD7734109}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Behaviour", "Test.Behaviour\Test.Behaviour.csproj", "{CD5F63CC-A7BA-4624-9325-D3E53E6BA1A4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host.Test.Behaviour", "Host.Test.Behaviour\Host.Test.Behaviour.csproj", "{CD5F63CC-A7BA-4624-9325-D3E53E6BA1A4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{13E241EA-EDAF-460F-B992-76CA985C9547}"
 	ProjectSection(SolutionItems) = preProject

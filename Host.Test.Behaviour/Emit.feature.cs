@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace Test.Behaviour
+namespace Host.Test.Behaviour
 {
     using TechTalk.SpecFlow;
     
