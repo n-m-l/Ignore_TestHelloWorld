@@ -8,6 +8,6 @@ namespace HelloWorld
 {
     public interface IEmitter
     {
-        public void Emit(string message);
+        void Emit(string message);
     }
 }

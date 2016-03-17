@@ -10,6 +10,9 @@ namespace HelloWorld
     {
         public List<IEmitter> Emitters { get; set; }
 
+        public SayHello()
+        { }
+
         public SayHello(List<IEmitter> emitters)
         {
             Emitters = emitters;
@@ -19,6 +22,12 @@ namespace HelloWorld
         {
             if (Emitters == null) return;
             foreach (IEmitter emitter in Emitters) emitter.Emit("Hello World!");
+        }
+
+        public void Register(IEmitter emitter)
+        {
+            if (Emitters == null) Emitters = new List<IEmitter>();
+            Emitters.Add(emitter);
         }
     }
 }
