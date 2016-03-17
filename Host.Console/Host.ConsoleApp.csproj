@@ -7,7 +7,7 @@
     <ProjectGuid>{BAD67376-ECF8-4AB9-8BD9-E32CD7734109}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Host.Console</RootNamespace>
+    <RootNamespace>Host.ConsoleApp</RootNamespace>
     <AssemblyName>Host.ConsoleApp</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConsoleEmitter.cs" />
+    <Compile Include="DebugEmitter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

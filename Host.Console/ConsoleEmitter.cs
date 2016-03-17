@@ -1,9 +1,5 @@
 ﻿using HelloWorld;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Host.ConsoleApp
 {
@@ -11,7 +7,7 @@ namespace Host.ConsoleApp
     {
         public void Emit(string message)
         {
-            Console.WriteLine(message);
+            System.Console.WriteLine(message);
         }
     }
 }

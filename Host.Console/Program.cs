@@ -7,11 +7,14 @@ namespace Host.ConsoleApp
     {
         static void Main(string[] args)
         {
-            IEmitter em = new ConsoleEmitter();
             SayHello eh = new SayHello();
-            eh.Register(em);
+            eh.Register(new ConsoleEmitter());
+#if DEBUG 
+            eh.Register(new DebugEmitter());
+#endif
             eh.Emit();
-            Console.ReadLine();
+            
+            System.Console.ReadLine();
         }
     }
 }
