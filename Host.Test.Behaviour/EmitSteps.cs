@@ -2,7 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TechTalk.SpecFlow;
 
-namespace Test.Behaviour
+namespace Host.Test.Behaviour
 {
     [Binding]
     public sealed class EmitSteps

@@ -1,6 +1,6 @@
 ﻿using HelloWorld;
 
-namespace Test.Behaviour
+namespace Host.Test.Behaviour
 {
     public sealed class MyObserver : IEmitter
     {
