@@ -7,7 +7,7 @@
     <Server serverUrl="http://specrunserver:6365" publishResults="true" />
   -->
   <TestAssemblyPaths>
-    <TestAssemblyPath>Test.Behaviour.dll</TestAssemblyPath>
+    <TestAssemblyPath>Host.Test.Behaviour.dll</TestAssemblyPath>
   </TestAssemblyPaths>
   <DeploymentTransformation>
     <Steps>
